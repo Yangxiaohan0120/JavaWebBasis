@@ -1,18 +1,295 @@
 <html>
-    <head>
-        <title>first.html</title>
-    </head>
-    <body>
-        <font size = "7" face = "verdana" color = "blue">This is the first page</font>
 
-        <!-- 这是一个注释 -->
-        <p>This is the first paragraph<br>This is the second sentence<br></p>
-        <p>This is the second paragraph </p>
+<head>
+    <title>first.html</title>
+</head>
 
-        <h1> This is the first title </h1>
+<body>
+    <font size="7" face="verdana" color="blue">This is the first page</font>
 
-        <h2> This is the second title </h2>
+    <!-- 这是一个注释 -->
+    <p>This is the first paragraph<br>This is the second sentence<br></p>
+    <p>This is the second paragraph </p>
 
-        <h3> This is the third title </h3>
-    </body>
+    <h1> This is the first title </h1>
+
+    <h2> This is the second title </h2>
+
+    <h3> This is the third title </h3>
+
+    <img src="/Users/yxh/Files/001learningstuff/CS/00Storage/001shuaidi/04javaWeb/HTML/辅助材料/HTML入门源码/img/html/image/hongmofangde wuhui.jpg"
+        alt="not find" width="600px" height="500px" /><br>
+
+    <a href="http://google.com">超链接</a>
+
+
+    <p><a href="#num-1">锚点1</a></p>
+
+    <a name="num-1">
+        <p>num-1慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。慕课网是垂直的互联网IT技能免费学习网站。以独家视频教程、在线编程工具、学习计划、问答社区为核心特色。在这里，你可以找到最好的互联网技术牛人，也可以通过免费的在线公开视频课程学习国内领先的互联网IT技术。
+        </p>
+    </a>
+
+
+    <ul>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>ddd</li>
+        <li>000</li>
+    </ul>
+    <ol>
+        <li>aaa</li>
+        <li>bbb</li>
+        <li>ccc</li>
+        <li>ddd</li>
+        <li>000</li>
+    </ol>
+
+
+    <table border="1" width="600px">
+        <tr>
+            <td>生日</td>
+            <td>性别</td>
+            <td>生日</td>
+            <td>工资</td>
+        </tr>
+        <tr>
+            <td>zhangsan</td>
+            <td>nan</td>
+            <td>1234</td>
+            <td>4321</td>
+        </tr>
+        <tr>
+            <td>lisi</td>
+            <td>nan</td>
+            <td>1111</td>
+            <td>2222</td>
+        </tr>
+    </table>
+
+    <table border="1" width="700px">
+        <tr>
+            <td>星期</td>
+            <td>星期1</td>
+            <td>星期2</td>
+            <td>星期3</td>
+            <td>星期4</td>
+            <td>星期5</td>
+        </tr>
+        <tr>
+            <td>第1节</td>
+            <td>数</td>
+            <td>数</td>
+            <td>数</td>
+            <td>数</td>
+            <td>数</td>
+        </tr>
+        <tr>
+            <td>第2节</td>
+            <td>英</td>
+            <td>英</td>
+            <td>数</td>
+            <td>数</td>
+            <td>音</td>
+        </tr>
+        <tr>
+            <td>第3节</td>
+            <td>语</td>
+            <td>音</td>
+            <td>美</td>
+            <td>语</td>
+            <td>语</td>
+        </tr>
+        <tr>
+            <td>第4节</td>
+            <td>语</td>
+            <td>语</td>
+            <td>外</td>
+            <td>语</td>
+            <td>体</td>
+        </tr>
+        <tr>
+            <td>午休</td>
+            <td>午休</td>
+            <td>午休</td>
+            <td>午休</td>
+            <td>午休</td>
+            <td>午休</td>
+        </tr>
+        <tr>
+            <td>第5节</td>
+            <td>语</td>
+            <td>数</td>
+            <td>体</td>
+            <td>美</td>
+            <td>劳</td>
+        </tr>
+        <tr>
+            <td>第6节</td>
+            <td>自</td>
+            <td>自</td>
+            <td>自</td>
+            <td>自</td>
+            <td>自</td>
+        </tr>
+    </table>
+
+    <h1> 表格的合并 </h1>
+    <table border="1" width="700px">
+        <caption>日程表</caption>
+        <thead>
+            <tr>
+                <td>星期</td>
+                <td>星期1</td>
+                <td>星期2</td>
+                <td>星期3</td>
+                <td>星期4</td>
+                <td>星期5</td>
+            </tr>
+        </thead>
+        <tr>
+            <td>第1节</td>
+            <td>数</td>
+            <td>数</td>
+            <td colspan="2" rowspan="2" halign="center" valign="middle">数</td>
+            <td>数</td>
+        </tr>
+    </table>
+
+    <h1>表单</h1>
+    <h2>表单1</h2>
+    <form action="" method="">
+        <label>请输入姓名：</label>
+        <input type="text" name="" id=""><br>
+        <label>请输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <label>再次输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <lebel>性别：</lebel>
+        <input type="radio" name="xb" id="" value="1">男
+        <input type="radio" name="xb" id="" value="0">女<br>
+    </form>
+
+    <h2>表单2</h2>
+    <form action="" method="">
+        <label>请输入姓名：</label>
+        <input type="text" name="" id=""><br>
+        <label>请输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <label>再次输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <lebel>性别：</lebel>
+        <input type="radio" name="xb" id="" value="1">男
+        <input type="radio" name="xb" id="" value="0">女<br>
+        <label>兴趣爱好</label>
+        <input type="checkbox" name="" id="" value="1">游泳
+        <input type="checkbox" name="" id="" value="2">看书
+        <input type="checkbox" name="" id="" value="3">爬山
+        <input type="checkbox" name="" id="" value="4">思考<br>
+        <label>生日：</label>
+        <select>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997" selected="selected">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+        </select>年
+        <select>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>月
+        <select>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>日<br>
+        头像<img src="image/headLogo/13.gif">
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        <input type="button" value="普通按钮">
+        <input type="submit" value="提交按钮">
+    </form>
+
+    <h2>表单3</h2>
+    <form action="" method="">
+        <label>请输入姓名：</label>
+        <input type="text" name="" id=""><br>
+        <label>请输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <label>再次输入密码：</label>
+        <input type="password" name="" id=""><br>
+        <lebel>性别：</lebel>
+        <input type="radio" name="xb" id="" value="1">男
+        <input type="radio" name="xb" id="" value="0">女<br>
+        <label>兴趣爱好</label>
+        <input type="checkbox" name="" id="" value="1">游泳
+        <input type="checkbox" name="" id="" value="2">看书
+        <input type="checkbox" name="" id="" value="3">爬山
+        <input type="checkbox" name="" id="" value="4">思考<br>
+        <label>生日：</label>
+        <select>
+            <option value="1995">1995</option>
+            <option value="1996">1996</option>
+            <option value="1997" selected="selected">1997</option>
+            <option value="1998">1998</option>
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+        </select>年
+        <select>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>月
+        <select>
+            <option value="1">01</option>
+            <option value="2">02</option>
+            <option value="3">03</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>日<br>
+        头像<img src="image/headLogo/13.gif">
+        <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+        </select><br>
+        <input type="button" value="普通按钮">
+        <input type="submit" value="提交按钮">
+    </form>
+    <textarea rows="10" cols="100" name="" id="">
+	  请输入
+	</textarea>
+    <input type="file"><input type="button" value="上传"><br>
+    000<input type="hidden" name="" id="">000
+    <select size="4" multiple="true">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="4">41</option>
+        <option value="42">42</option>
+        <option value="43">43</option>
+        <option value="44">44</option>
+        <option value="45">45</option>
+    </select>
+
+    <select size="4" multiple="true">
+    </select>
+
+</body>
+
 </html>
