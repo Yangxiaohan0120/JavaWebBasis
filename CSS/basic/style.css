@@ -1,0 +1,111 @@
+
+p{
+    /* --- text --- */
+	/*color: rgb(238,130,238);*/
+	/*direction: ltr;*/
+	letter-spacing: 10px;
+	line-height: 50px;
+	/*text-align: justify;*/
+	/*text-decoration: line-through;*/
+	/*text-shadow: 5px 5px 5px red;*/
+	text-transform: uppercase;
+	/* text-indent: 2em; */
+	text-indent: 30px;
+
+    /* -- font -- */
+    font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 隶书;
+}
+
+/* -- list -- */
+ul{
+	/*list-style-type: circle;
+	list-style-position: outside;
+	list-style-image: url("image/headLogo/1.gif");*/
+	list-style: outside url("image/headLogo/9.gif");
+}
+ol{
+	list-style-type: lower-latin;
+}
+
+/* -- 伪类 -- */
+a:link{
+	color:red;
+}
+a:visited{
+	color: green;
+}
+a:hover{
+	color: yellow;
+	font-size: 30px;
+}
+a:active{
+	color:blue;
+}
+label:hover{
+	color:red;
+}
+input:hover{
+	background-color: red;
+}
+input:active{
+	background-color: blue;
+}
+input:focus{
+	background-color: yellow;
+}
+
+/* -- 伪类分类 -- */
+p:nth-child(2){
+	background-color: red;
+}
+
+td:nth-last-child(2){
+	background-color: red;
+}
+
+/* -- 伪元素选择器 -- */
+/*可以将p换成h1*/
+p::before{
+	content: "终于找到你，";
+}
+/*可以将body也换成h1*/
+body::after{
+	content: "依依不舍离开你，";
+}
+p::first-line{
+	background-color: yellow;
+}
+p::first-letter{
+	font-size: 30px;
+}
+p::selection{
+	background-color: red;
+}
+
+
+/* -- 其他类型选择器 -- */
+#name1,#name2,p,#td1{
+	color:red;
+	background-color: yellow;
+}
+/*子孙选择器*/
+#div1 p{
+	color: red;
+}
+/*子选择器*/
+#div1>p{
+	color:red;
+}
+
+/*相邻兄弟选择器*/
+#div2+div{
+	color: red;
+}
+
+/*属性选择器*/
+p[class="p1"]{
+	color:red;
+}

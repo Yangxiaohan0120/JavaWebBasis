@@ -1,0 +1,13 @@
+p{
+    background-color: rgb(246, 218, 148);
+    font-size: 30px;
+}
+.p1{
+    font-family: monospace;
+}
+body{
+    color: darkblue;
+    /* background-color: black; */
+    background-image: url("/Users/yxh/Files/001learningstuff/CS/00Storage/001shuaidi/04javaWeb/HTML/辅助材料/HTML入门源码/img/html/image/MG_details_03.jpg");
+    background-repeat: repeat-x;
+}
